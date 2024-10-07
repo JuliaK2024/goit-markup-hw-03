@@ -20,6 +20,50 @@ title {
     line-height: 19.6px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 72px;
+
+}
+
+.header-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}
 
 .logo {
 
@@ -30,6 +74,8 @@ title {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: flex;
+    flex-direction: row;
 }
 
 .Studio {
@@ -41,6 +87,8 @@ title {
     text-decoration: Underline;
     text-transform: uppercase;
     color: #2e2f42;
+    display: flex;
+    flex-direction: row;
 }
 
 .navigation-item {
@@ -70,6 +118,8 @@ title {
 
 .address {
     font-style: normal;
+    display: flex;
+    flex-direction: row;
 }
 
 .tel-mail:hover {
@@ -82,7 +132,11 @@ title {
 
 .section-one {
 
+
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+
 }
 
 .h-one {
@@ -94,6 +148,9 @@ title {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+
+
 }
 
 .button {
@@ -107,6 +164,18 @@ title {
     line-height: 1.5;
     cursor: pointer;
     text-align: center;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    box-sizing: border-box;
 }
 
 .visually-hidden {
