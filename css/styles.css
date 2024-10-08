@@ -315,6 +315,7 @@ padding-left: 0;
 .footer {
 
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .studio-footer {
@@ -334,4 +335,10 @@ padding-left: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
