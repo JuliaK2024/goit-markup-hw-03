@@ -300,10 +300,15 @@ ol {
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .team-name-profession {
     padding: 32px 0;
+}
+
+.section-my-portfolio {
+    padding: 120px 0;
 }
 
 .our-portfolio {
@@ -315,9 +320,14 @@ ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-
+.our-portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
 
 .our-portfolio-item {
     font-family: Roboto, sans-serif;
@@ -334,6 +344,8 @@ ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.our-portfolio-item-dep {}
 
 .footer {
 
