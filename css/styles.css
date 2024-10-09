@@ -258,6 +258,8 @@ ol {
 
 .our-team-list {
     background-color: #FFFFFF;
+    margin-bottom: 32px;
+
 }
 
 .our-team-title {
@@ -285,6 +287,7 @@ ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .members-profession {
@@ -292,6 +295,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 .team-section {
