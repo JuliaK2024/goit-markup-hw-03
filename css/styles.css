@@ -254,12 +254,15 @@ ol {
 .section-three {
 
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .our-team-list {
     background-color: #FFFFFF;
     margin-bottom: 32px;
-
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
 .our-team-title {
@@ -298,11 +301,7 @@ ol {
     margin-bottom: 32px;
 }
 
-.team-section {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-}
+
 
 .our-portfolio {
     font-family: Roboto, sans-serif;
