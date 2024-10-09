@@ -58,12 +58,9 @@ ol {
 }
 
 .navigation {
-
     display: flex;
-
     gap: 40px;
     align-items: center;
-
 }
 
 .nav-list {
@@ -271,6 +268,7 @@ ol {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .images-of-the-team {
@@ -294,6 +292,12 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.team-section {
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
 .our-portfolio {
