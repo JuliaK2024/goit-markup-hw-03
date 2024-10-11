@@ -61,6 +61,8 @@ ol {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-list {
@@ -115,6 +117,8 @@ ol {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -282,6 +286,8 @@ ol {
 .images-of-the-team {
 
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-member {
@@ -340,6 +346,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-department {
@@ -353,6 +360,7 @@ ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     margin-bottom: 8px;
+    border-top: none;
 }
 
 .footer {
