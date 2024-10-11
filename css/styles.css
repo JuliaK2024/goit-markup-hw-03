@@ -338,7 +338,8 @@ ol {
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
-    width: calc((100% - 48)) / 3;
+
+
 }
 
 .our-portfolio-item {
@@ -349,6 +350,10 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+}
+
+.our-portfolio-item-list {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-department {
