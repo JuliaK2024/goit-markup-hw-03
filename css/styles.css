@@ -68,16 +68,16 @@ ol {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 .navigation-menu {
-
     display: flex;
     gap: 40px;
     padding: 24px 0 24px;
 }
-
-
 
 .logo {
 
@@ -145,6 +145,7 @@ ol {
     display: flex;
     padding: 24px 0 24px;
     gap: 40px;
+    margin-left: auto;
 }
 
 .tel-mail:hover {
@@ -174,8 +175,6 @@ ol {
     padding-left: 331px;
     padding-right: 331px;
     margin-bottom: 48px;
-
-
 }
 
 .button {
@@ -207,10 +206,12 @@ ol {
 }
 
 .visually-hidden {
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
     margin: -1px;
     border: 0;
-
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -329,6 +330,7 @@ ol {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .our-portfolio-item {
@@ -347,7 +349,11 @@ ol {
     color: #434455;
 }
 
-.our-portfolio-item-dep {}
+.our-portfolio-item-dep {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+}
 
 .footer {
 
