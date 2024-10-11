@@ -175,10 +175,7 @@ ol {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    padding-top: 188px;
-    padding-left: 331px;
-    padding-right: 331px;
-    margin-bottom: 48px;
+    margin: 0 auto;
 }
 
 .button {
@@ -239,6 +236,10 @@ ol {
     gap: 24px;
     align-items: center;
 
+}
+
+.strategy-item {
+    width: calc ((100% - 24 * 3)) / 4;
 }
 
 .strategy-list {
@@ -337,6 +338,7 @@ ol {
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
+    width: calc((100% - 48)) / 3;
 }
 
 .our-portfolio-item {
