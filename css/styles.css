@@ -52,9 +52,9 @@ ol {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container: {
+.header-container {
     display: flex;
-    align-items: center;
+
 }
 
 .navigation {
@@ -91,6 +91,7 @@ ol {
     margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
+    text-decoration: Underline;
 }
 
 .Studio {
@@ -114,6 +115,7 @@ ol {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 .navigation-item:hover {
@@ -141,7 +143,7 @@ ol {
 
 .address-list {
     display: flex;
-    align-items: center;
+    padding: 24px 0 24px;
     gap: 40px;
 }
 
