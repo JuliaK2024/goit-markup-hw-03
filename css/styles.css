@@ -61,8 +61,8 @@ ol {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
+
 }
 
 .nav-list {
@@ -70,15 +70,15 @@ ol {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
+
 
 }
 
 .navigation-menu {
     display: flex;
-    gap: 40px;
-    padding: 24px 0 24px;
+
+
 }
 
 .logo {
@@ -90,10 +90,10 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px;
+
     padding-top: 24px;
     padding-bottom: 24px;
-    text-decoration: Underline;
+
 }
 
 .Studio {
@@ -102,7 +102,7 @@ ol {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: Underline;
+
     text-transform: uppercase;
     color: #2e2f42;
     margin-right: 76px;
@@ -142,12 +142,13 @@ ol {
     display: flex;
     font-style: normal;
     margin-left: auto;
-    padding: 24px 0;
+
 }
 
 .address-list {
     display: flex;
-    padding: 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
     margin-left: auto;
 }
@@ -176,6 +177,7 @@ ol {
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -266,7 +268,7 @@ ol {
 }
 
 .our-team-list {
-    background-color: #FFFFFF;
+
     margin-bottom: 32px;
     display: flex;
     gap: 24px;
@@ -393,10 +395,12 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+
 
 }
